@@ -1,6 +1,8 @@
 import './App.css'
 import Card from './component/card'
-
+import Cardreaction from './component/Card_reaction'
+import Timer from './component/timer'
+import Quiz from './component/quiz'
 function App() {
   const cardData = [
     {
@@ -29,9 +31,12 @@ function App() {
             id={props.id}
             name={props.name}
             tag={props.tag}
-          ></Card>
+          
+          >
+          </Card>
         
       ))}
+    <Timer></Timer>
     </>
   )
 }

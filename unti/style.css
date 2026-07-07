@@ -1,0 +1,16 @@
+#a{
+    display: grid;
+    grid-template-columns: repeat(16,5px);
+}
+.div{
+    border: solid 0.1px black;
+    width: 5px;
+    height: 5px;
+
+}
+.black{
+    background-color: #000;
+}
+.red{
+    background-color: red;
+}
