@@ -24,6 +24,7 @@ function App() {
 
   return (
     <>
+    <Quiz></Quiz>
       {cardData.map(props => (
        
           <Card
