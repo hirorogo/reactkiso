@@ -1,8 +1,8 @@
 import './App.css'
-import Card from './component/card'
-import Cardreaction from './component/Card_reaction'
-import Timer from './component/timer'
-import Quiz from './component/quiz'
+import Card from './components/card'
+import Cardreaction from './components/Card_reaction'
+import Timer from './components/timer'
+import Quiz from './components/quiz'
 function App() {
   const cardData = [
     {
