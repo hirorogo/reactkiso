@@ -167,6 +167,13 @@ const userList = users.map((user) => {
   return <li>{user}さん</li>;
 });
 ```
+第二引数には何回目のmapかが入るらしいね
+keyっていうのがあるらしい
+
+## 再描画についてのお話
+
+Reactのコンポーネント関数は、画面が再描画されるたびに最初から最後まで丸ごと実行し直されます。
+handleAnswerが呼ばれてsetMondaibangouが実行されると、Reactは再描画のために関数をもう一度呼び出します。
 
 ## 基礎的なJSの部
 jsではDOMDOMしないと要素にアクセスできませんねなので
@@ -263,4 +270,14 @@ const { name, age } = user;
 console.log(name); // 大岳
 console.log(age);  // 21
 ```
-
+##主要な.シリーズ
+```
+.length
+// オブジェクトの文字数返してくれるらしい
+prev=> prevなんちゃら
+// prevは前の新しい詳しいこと知らん
+```
+## なんか{}
+なんか{}あると即実行されるらしいね
+Reactのイベントバンドらは全部arrorがいるらしい
+だからonclickのときはアローかfunctionで渡さない通したときだけ実行されるらしい
