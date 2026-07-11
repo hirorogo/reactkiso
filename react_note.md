@@ -281,3 +281,15 @@ prev=> prevなんちゃら
 なんか{}あると即実行されるらしいね
 Reactのイベントバンドらは全部arrorがいるらしい
 だからonclickのときはアローかfunctionで渡さない通したときだけ実行されるらしい
+
+ onChangeがあるらしいね内容が変わったときは発火する系
+ イベントバンドららしい
+ ## Localストレージ
+ localストレージというプロパティがあるらしい
+
+ ```
+// setItemでsetできるらしい第1引数でデータを識別するキー名第二引数に入れれるらしい同じキー名にするとぶつかるらしいですね
+ localStorage.setItem("my-todos", JSON.stringify(todos));
+
+localStorage.getItem("キー名")
+ ```
