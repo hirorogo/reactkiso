@@ -3,6 +3,8 @@ import Card from './components/card'
 import Cardreaction from './components/Card_reaction'
 import Timer from './components/timer'
 import Quiz from './components/quiz'
+import Nikki from './components/nikki'
+
 function App() {
   const cardData = [
     {
@@ -24,21 +26,23 @@ function App() {
 
   return (
     <>
-    <Quiz></Quiz>
+      <Nikki></Nikki>
+      <Quiz></Quiz>
       {cardData.map(props => (
-       
-          <Card
 
-            id={props.id}
-            name={props.name}
-            tag={props.tag}
-          
-          >
-          </Card>
-        
+        <Card
+
+          id={props.id}
+          name={props.name}
+          tag={props.tag}
+
+        >
+        </Card>
+
       ))}
+
     </>
   )
 }
 
-  export default App
+export default App
